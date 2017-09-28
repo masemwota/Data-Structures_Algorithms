@@ -1,0 +1,24 @@
+Fist of all, I have both the provided tester and my tester in the one tester class called RBTTester. 
+I have the test with the dictionary in a class called 'Dictionary' because it has a main method. 
+
+I had some challenges implementing the Red Black Tree. 
+My fixTree was hardest to implement. I had to work out the rotations and the fixes and avoid null pointer. 
+I also had to translate the rotateLeft method to work for rotateRight. 
+I did the generic implementation, so that caused a lot of warnings till I put the brackets in. 
+I later changed my compareTo and Equals method to compare ignoring case so that I could get the dictionary to work effectively. 
+
+
+My addNode method is recursive because that is the way I thought about it. 
+But I had to deal with a bunch of null issues and what to return. 
+
+Dealing with the preOrder visit method and the interface stuff was kind of weird. 
+I had issues with how the method was static. 
+
+It was also hard to implement the dictionary. 
+I had to figure out how to add the file, and scanner to use it in my code. 
+
+It took 489 milliseconds to add the dictionary to the RBT. It took 4 seconds to check and compare the poem. 
+194 words were found, which mean they were part of the dictionary, and therefore actual correctly spelled words. 
+46 words from the poem were not found which means they were either made up, or they were misspelled. 
+It turns out that words with punctuation were not added to the RBT. 
+Also words with apostrophes were not added. 
